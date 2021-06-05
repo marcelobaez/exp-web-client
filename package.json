@@ -9,18 +9,24 @@
   "dependencies": {
     "@ant-design/icons": "4.2.1",
     "@next/bundle-analyzer": "^9.1.4",
-    "antd": "4.3.0",
+    "antd": "latest",
+    "axios": "^0.21.1",
     "cross-env": "^7.0.2",
+    "date-fns": "^2.21.3",
     "dayjs": "1.8.28",
     "esm": "^3.2.25",
     "next": "latest",
-    "postcss-preset-env": "^6.7.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-query": "^3.16.0",
+    "recharts": "^2.0.9"
   },
   "browser": {
     "fs": false,
     "path": false
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "postcss-preset-env": "^6.7.0"
+  }
 }
