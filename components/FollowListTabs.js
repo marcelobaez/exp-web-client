@@ -2,14 +2,15 @@ import { Button, Tabs } from "antd";
 import { PlusOutlined } from "@ant-design/icons";
 import { EmptyItems } from "./EmptyItems";
 import { ModalCreateList } from "./ModalCreateList";
+import { SearchExpContainer } from "./SearchExpContainer";
 import { useState } from "react";
 
 const { TabPane } = Tabs;
 let newTabIndex = 0;
 
 const paneList = [
-  { title: "Mi lista 1", content: <EmptyItems />, key: "1" },
-  { title: "Mi lista 2", content: <EmptyItems />, key: "2" },
+  { title: "Mi lista 1", content: <SearchExpContainer />, key: "1" },
+  // { title: "Mi lista 2", content: <EmptyItems />, key: "2" },
 ];
 
 export function FollowListTabs() {

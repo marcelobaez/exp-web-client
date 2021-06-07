@@ -5,6 +5,11 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { Hydrate } from "react-query/hydration";
 import { ConfigProvider } from "antd";
 import esES from "antd/lib/locale/es_ES";
+import { makeServer } from "../mirage";
+
+if (process.env.NODE_ENV === "production") {
+  makeServer({ environment: "production" });
+}
 
 export default function MyApp({ Component, pageProps }) {
   const queryClientRef = React.useRef();

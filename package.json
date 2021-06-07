@@ -27,6 +27,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "miragejs": "^0.1.41",
     "postcss-preset-env": "^6.7.0"
   }
 }
