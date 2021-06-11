@@ -1,6 +1,7 @@
 import "antd/dist/antd.css";
 import "../styles/vars.css";
 import "../styles/global.css";
+import React from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { Hydrate } from "react-query/hydration";
 import { ConfigProvider } from "antd";
