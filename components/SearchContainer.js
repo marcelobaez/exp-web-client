@@ -1,4 +1,3 @@
-import React from "react";
 import { Row, Col, Card, Typography } from "antd";
 import { ExpTable } from "./ExpTable";
 import { EmptyLists } from "./EmptyLists";
@@ -16,8 +15,6 @@ export function SearchContainer() {
         <Card bordered={false} style={{ width: "100%", minHeight: "300px" }}>
           <FollowListTabs />
         </Card>
-        {/* <EmptyResults />
-        <ExpTable /> */}
       </Col>
     </Row>
   );

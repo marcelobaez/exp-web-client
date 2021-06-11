@@ -1,4 +1,5 @@
-import { Space } from "antd";
+import { Space, Button } from "antd";
+import { PlusOutlined } from "@ant-design/icons";
 
 export const columns = [
   {
@@ -22,7 +23,9 @@ export const columns = [
     key: "action",
     render: (text, record) => (
       <Space size="middle">
-        <a>Agregar</a>
+        <Button type="primary" ghost icon={<PlusOutlined />}>
+          Agregar
+        </Button>
       </Space>
     ),
   },
